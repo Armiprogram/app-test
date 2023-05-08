@@ -1,0 +1,14 @@
+
+<div class="row">
+    <div class="col-md-4" *ngFor="let coffe of dataCoffe">
+      <div class="thumbnail">
+        <a href={{coffe.image}} target="_blank">
+          <img src={{coffe.image}} alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>{{coffe.description}} </p>
+            <p>{{coffe.title}} </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    

@@ -1,0 +1,17 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dataPersonal.results">
+        <td>{{item.name.first}} </td>
+        <td>{{item.dob.age}}</td>
+        <td>{{item.location.city}}</td>
+      </tr>
+
+    </tbody>
+  </table>
